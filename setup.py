@@ -56,7 +56,6 @@ setup(
         'pandas==0.25.1',
         'requests',
         'setuptools>=41.0.0',
-        '{}=={}'.format(tensorflow_dependency, tensorflow_version),
     ],
     extras_require={
         'evaluation':  ['musdb==0.3.1', 'museval==0.3.0']
